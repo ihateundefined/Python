@@ -5,4 +5,3 @@ while val < 11:
     sum += val
     val += 1
 print(sum)
-
