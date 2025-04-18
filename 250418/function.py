@@ -40,6 +40,7 @@ sum(10)
 print('hap >> ', hap)
 '''
 
+'''
 # global 키워드
 hap = 100
 num = 50
@@ -52,4 +53,4 @@ def sum(value):
 
 sum(10)
 print('hap >> ', hap)
-
+'''
