@@ -43,3 +43,13 @@ while camera.isOpened():
 camera.release()
 cv2.destroyAllWindows()
 '''
+
+'''
+# 이미지를 활용해서 plotting하기
+from matplotlib import pyplot as plt
+
+img = cv2.imread('sh.png', 1)
+cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+plt.imshow(img)
+plt.show()
+'''
